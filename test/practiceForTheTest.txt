@@ -29,8 +29,8 @@ grape,25,purple,tart
 apple,8,green,sour
 kiwi,15,brown,sour
 banana,7,yellow,sweet
-
-Text Example 2: logs.txt
+  
+Text Example 2: logs.txt ✅
 2024-07-20 10:00:01 - User logged in: user123
 2024-07-20 10:05:22 - File accessed: /home/user123/document.txt
 2024-07-20 10:12:48 - Error: Connection timeout
@@ -40,7 +40,7 @@ Text Example 2: logs.txt
 2024-07-21 10:15:00 - Warning: Disk space low
 2024-07-21 11:59:59 - User logged out: guest
 
-Text Example 3: names.txt
+Text Example 3: names.txt ✅
 John Smith
 Alice Wonderland
 Bob The Builder
@@ -48,7 +48,7 @@ Carol Danvers
 Peter Parker
 Bruce Wayne
 
-Text Example 4: numbers.txt
+Text Example 4: numbers.txt ✅
 1
 10
 100
@@ -67,21 +67,21 @@ Calculate total quantity: Write a script to calculate the total quantity of all 
 Find the sweetest fruit: Write a script to determine which fruit is listed as "sweet" and has the highest quantity. (Similar to the "biggest line" example in codeInShell.txt but applied to different criteria)
 Count unique fruits: Write a command to list the unique fruit names.
 
-Using logs.txt
+Using logs.txt ✅
 Find login/logout times for a user: Write a script that takes a username as input and prints the login and logout times for that user.
 Count error/warning messages: Write a command to count the number of lines containing "Error" or "Warning".
 Extract file paths: Write a command to extract the file paths accessed (e.g., /home/user123/document.txt).
 Find the latest event: Write a command to display the last line of the log file.
 Analyze user activity: Write a script to determine how many unique users are in the log file.
 
-Using names.txt
+Using names.txt ✅
 Extract first names: Write a command to extract the first names.
 Reverse the names: Write a script to print the names in the format "Smith, John".
 Count names with a specific letter: Write a script to count how many names contain the letter "a" (case-insensitive).
 Print names in uppercase: Write a command to print all names in uppercase.
 Sort names alphabetically: Write a command to sort the names alphabetically.
 
-Using numbers.txt
+Using numbers.txt ✅
 Calculate the sum: Write a script to calculate the sum of all numbers.
 Find numbers greater than a value: Write a script that takes a number as input and prints all numbers from the file greater than that number.
 Find the average: Write a script to calculate the average of the numbers.
@@ -93,7 +93,7 @@ Filter even numbers: Write a script to print only the even numbers from the file
 
 
 				Practise with ready-made
-1. ls (List directory contents)
+1. ls (List directory contents) ✅
 Basic usage:
 Bash
 ls ❗
@@ -103,25 +103,25 @@ Bash
 ls -l ❗
 This provides more detailed information, including permissions, owner, size, and modification date. (As potentially shown in the image prompt).
 
-2. mkdir (Create directories)
+2. mkdir (Create directories) ✅
 Basic usage:
 Bash
 mkdir new_directory ❗
 This creates a directory named new_directory in your current location.
 
-3. touch (Create empty files or update timestamps)
+3. touch (Create empty files or update timestamps) ✅
 Create a file:
 Bash
 touch new_file.txt ❗
 This creates an empty file named new_file.txt.
 
-4. cat (Concatenate and display files)
+4. cat (Concatenate and display files) ✅
 Display a file's content:
 Bash
 cat file.txt ❗
 This will print the contents of file.txt to your terminal.
 
-5. cd (Change directory)
+5. cd (Change directory) ✅
 Go to a specific directory:
 Bash
 cd Documents ❗
@@ -136,18 +136,18 @@ or just:
 Bash
 cd ❗
 
-6. man (Display manual pages)
+6. man (Display manual pages) ✅
 Get help for a command:
 Bash
 man ls ❗
 This will display the manual page for the ls command, explaining its options and usage.
 
-7. chmod (Change file permissions)
+7. chmod (Change file permissions) ✅
 Grant read permission to the user for myfile.txt (from codeInShell.txt):
 Bash
 chmod u+r myfile.txt ❗
 
-8. wc (Word count)
+8. wc (Word count) ✅
 Count lines in a file (from codeInShell.txt):
 Bash
 n=$(wc -l < file.txt) ❗
@@ -158,8 +158,8 @@ Bash
 lines="some text here" ❗
 chars=$(echo "$lines" | wc -m) ❗
 echo "$chars" ❗
-
-9. head (Output the first part of files)
+ 
+9. head (Output the first part of files) ✅
 Display the first 4 lines of file.txt (from codeInShell.txt):
 Bash
 head -n 4 file.txt ❗
@@ -168,40 +168,40 @@ Bash
 T=$(head -4 file.txt) ❗
 echo "$T"❗
 
-10. tail (Output the last part of files)
+10. tail (Output the last part of files) ✅
 Display the last 3 lines of the output of head -n 5 file.txt (from codeInShell.txt):
 Bash
 head -n 5 file.txt | tail -n 3 ❗
 
-11. sort (Sort lines of text files)
+11. sort (Sort lines of text files) ✅
 Sort the contents of file.txt and output to result.txt (from codeInShell.txt):
 Bash
 sort "file.txt" > result.txt ❗
 
-12. uniq (Remove duplicate lines)
+12. uniq (Remove duplicate lines) ✅
 Sort file.txt and remove duplicate lines, saving to result.txt (from codeInShell.txt):
 Bash
 sort "file.txt" | uniq > result.txt ❗
 
-13. cut (Remove sections from each line of files)
+13. cut (Remove sections from each line of files) ✅
 Example (not directly in your snippets, but common):
 Bash
 cut -d':' -f1 /etc/passwd ❗
 This would cut the /etc/passwd file, using : as a delimiter, and display only the first field (usernames).
 
-14. nl (Number lines of files)
+14. nl (Number lines of files) ✅
 Basic usage:
 Bash
 nl file.txt ❗
 This will number the lines of file.txt.
 
-15. file (Determine file type)
+15. file (Determine file type) ✅
 Check the type of myfile.txt:
 Bash
 file myfile.txt ❗
 This will tell you if it's a regular file, directory, etc.
 
-16. find (Find files and directories)
+16. find (Find files and directories) ✅
 Find files named like $1 in your home directory (from codeInShell.txt):
 Bash 
 find ~ -name "$1" ❗
@@ -210,13 +210,13 @@ Find regular files named t*.txt in the current directory (from codeInShell.txt):
 Bash
 find ./ -type f -name 't*.txt' ❗
 
-17. tr (Translate or delete characters)
+17. tr (Translate or delete characters) ✅
 Example (not directly in your snippets, but common):
 Bash
 echo "lowercase" | tr '[:lower:]' '[:upper:]' ❗
 This would translate all lowercase characters to uppercase, outputting "LOWERCASE".
 
-18. let (Perform arithmetic operations)
+18. let (Perform arithmetic operations) ✅
 Add two variables (from codeInShell.txt):
 Bash 
 A=5 ❗
@@ -249,7 +249,7 @@ while [ $i -lt 2 ]; do ❗
     echo "$result" # Output: 50, 25 ❗
 done ❗
 
-19. rm (Remove files or directories)
+19. rm (Remove files or directories) ✅
 Remove a file (from codeInShell.txt):
 Bash
 f="temp.txt" ❗
@@ -257,13 +257,13 @@ f="temp.txt" ❗
 rm "$f" ❗
 Use rm with caution! It permanently deletes files.
 
-20. rmdir (Remove empty directories)
+20. rmdir (Remove empty directories) ✅
 Remove an empty directory:
 Bash  
 rmdir empty_directory ❗
 This will only work if empty_directory is indeed empty.
 
-21. cp (Copy files and directories)
+21. cp (Copy files and directories) ✅
 Copy a file:
 Bash
 cp source.txt destination.txt ❗
@@ -271,7 +271,7 @@ Copy a directory recursively (to include its contents):
 Bash
 cp -r source_directory destination_directory ❗
 
-22. for (Looping construct)
+22. for (Looping construct) ✅
 Loop through words in a string (from codeInShell.txt):
 Bash
 for l in $(cat file.txt); do ❗
@@ -295,7 +295,7 @@ for i in $(seq 0 $(($(echo "$lines" | wc -m) - 1))); do ❗
     echo "Position $i: $char" ❗
 done ❗
 
-23. while (Looping construct)
+23. while (Looping construct) ✅
 Read a file line by line (from codeInShell.txt):
 Bash
 while read -r line; do ❗
@@ -315,7 +315,7 @@ echo "$lines" | while read -r line; do ❗
     echo "Line starting with 'a': $line" ❗
 done ❗
 
-24. grep, egrep (Find patterns in text)
+24. grep, egrep (Find patterns in text) ✅
 Find lines starting with "a" in file.txt (from codeInShell.txt):
 Bash
 lines=$(egrep "^a" "file.txt") ❗
