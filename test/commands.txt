@@ -1,0 +1,26 @@
+• ls			-f FILE – if exists and it is a regular file
+• mkdir			-d FILE - if exists and it is a directory
+• touch			-e FILE - FILE exists
+• cat			-r FILE – FILE exists and read permission is granted
+• cd			-w FILE - FILE exists and write permission is granted
+• vi			-x FILE - FILE exists and execute permission is granted
+• man			FILE1 -ot FILE2 – file1 is older than file2
+• chmod			FILE1 -nt FILE2 – file1 is newer than file2
+• clear			-z STRING – the length of STRING is zero
+• wc			-n STRING - the length of STRING is nonzero
+• head			EXPRESSION1 -a EXPRESSION2 - both EXPRESSION1 and EXPRESSION2 are true
+• tail			EXPRESSION1 -o EXPRESSION2 - either EXPRESSION1 or EXPRESSION2 is true
+• sort			STRING1 = STRING2 - the strings are equal
+● uniq			STRING1 != STRING2 - the strings are not equal
+● cut			INTEGER1 -eq INTEGER2 - INTEGER1 is equal to INTEGER2
+● nl			INTEGER1 -ge INTEGER2 - INTEGER1 is greater than or equal to INTEGER2
+● file			INTEGER1 -gt INTEGER2 - INTEGER1 is greater than INTEGER2
+● find			INTEGER1 -le INTEGER2 - INTEGER1 is less than or equal to INTEGER2
+● tr			INTEGER1 -lt INTEGER2 - INTEGER1 is less than INTEGER2
+● let			INTEGER1 -ne INTEGER2 - INTEGER1 is not equal to INTEGER2
+● rm			All args: $@	The numer of all args: $#
+● rmdir						
+● cp						
+● for						
+● while						
+● grep, egrep					

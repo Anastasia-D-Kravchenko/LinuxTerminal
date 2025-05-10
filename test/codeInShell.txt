@@ -1,0 +1,79 @@
+shift 2 
+let C=$A+$B
+D=$(($A+$B))
+T=$(head -4 file.txt)
+----------------------------------------
+#!/bin/bash
+if [ $1 -gt 10 ];then
+elif [ $1 -lt 10 ];then
+else
+	echo "It is equal"
+fi
+----------------------------------------
+if [ -f $1 ]
+----------------------------------------
+if [ -z $1 ] || [ -z $2 ]	 if [ $1 = $2 ]		if [ $1 \> $2 ]
+----------------------------------------
+while read -r line;do
+done < $1
+----------------------------------------
+for l in $(cat $1);do		for arg in $@
+done
+----------------------------------------
+if [ $1 -gt 10 -a $1 -lt 20 ] -a (and)
+----------------------------------------
+sort "$1" | uniq > result.txt
+find ~ -name "$1"
+----------------------------------------
+lines=$(egrep "^a" "$1")
+echo "$lines" | while read -r line
+#egrep "^a" $1 >> $2
+----------------------------------------
+if [ $# -ne 2  ] ...
+result=$1
+i=0
+while [ $i -lt $2 ];do
+	((i+=1))
+	let result=$result/2
+done
+----------------------------------------
+for i in *.txt;do
+       egrep '^a.{9}' $i 
+done
+----------------------------------------
+lines=$(head -n 5 $i | tail -n 3 | sort | uniq)
+n=$(wc -l < $1)
+echo "$n $line" >> $1
+----------------------------------------
+c=$(wc -l < $f)
+rm $f
+----------------------------------------
+files=$(find ./ -type f -name 't*.txt')
+for f in $files;do
+	mv $f $1 2>> errors.txt
+done
+----------------------------------------
+lines=$(egrep "^c" $1)
+biggest=0
+while read -r l;do
+	chars=$(echo $l | wc -m)
+	if [ $chars -ge $biggest ]
+	then
+		biggest=$chars
+		line=$l
+	fi
+done <<< "$lines"
+----------------------------------------
+for f in ~/*.log
+echo "$(tail $f)" > $f
+----------------------------------------
+chmod u+r $file
+num=$(head -8 $file | tail -4 | sort | uniq | wc -m)
+((sum+=$num))
+----------------------------------------
+lines=$(head -4 $1 | tail -3)
+for i in $(seq 0 $(($(echo "$lines" | wc -m) - 1)))
+char="${lines:i:1}"
+echo "Position $i: $char"
+----------------------------------------
+read veraible
