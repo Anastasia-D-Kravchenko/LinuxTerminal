@@ -1,0 +1,6 @@
+cat: name.txt: No such file or directory
+cat: name.txt: No such file or directory
+cat: name.txt: No such file or directory
+cat: name.txt: No such file or directory
+cat: name.txt: No such file or directory
+cat: name.txt: No such file or directory

@@ -1,0 +1,5 @@
+./test/test.txt
+./test/file.txt
+./test/test
+./test
+./test/alp.txt

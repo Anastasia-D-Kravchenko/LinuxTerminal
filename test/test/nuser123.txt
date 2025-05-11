@@ -1,0 +1,4 @@
+2024-07-20 10:00:01 - User logged in: user123
+2024-07-20 10:05:22 - File accessed: /home/user123/document.txt
+2024-07-20 10:12:48 - Error: Connection timeout
+2024-07-20 11:01:15 - User logged out: user123

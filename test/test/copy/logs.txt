@@ -1,0 +1,8 @@
+2024-07-20 10:00:01 - User logged in: user123
+2024-07-20 10:05:22 - File accessed: /home/user123/document.txt
+2024-07-20 10:12:48 - Error: Connection timeout
+2024-07-20 11:01:15 - User logged out: user123
+2024-07-21 09:22:30 - User logged in: guest
+2024-07-21 09:28:45 - File accessed: /var/log/system.log
+2024-07-21 10:15:00 - Warning: Disk space low
+2024-07-21 11:59:59 - User logged out: guest
