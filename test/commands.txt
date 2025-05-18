@@ -24,4 +24,6 @@
 ● cp						
 ● for						
 ● while						
-● grep, egrep					
+● grep, egrep		
+● basename	
+● rev
